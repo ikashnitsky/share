@@ -1,2 +1,2 @@
 # misc
-A common repository for my small projects
+A repository to share occasional files
