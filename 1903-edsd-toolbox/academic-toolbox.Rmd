@@ -1,0 +1,399 @@
+---
+title: "Academic toolbox"
+subtitle: "a brief guided tour to academic internet"
+author: "<br><br>Ilya Kashnitsky"
+date: "<br><br>2019-03-18"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["shinobi", "ninjutsu" , "assets/ninpo.css"]
+    self_contained: false
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(knitr)
+```
+
+
+layout: true
+class: bg-main1 split-four
+
+.column[.content.sideways-rl[
+.font4[OUR THREE DAYS PLAN]
+]]
+
+.column[.content.vmiddle[
+# Academic internet
+<br>
+.font2[
+Open access  
+Professional network  
+Finding papers  
+Getting help  
+Building CV  
+Outreaching  
+Discussing papers  
+]
+]]
+
+.column[.content.vmiddle[
+# Bibliographics workshop 
+
+.font2[
+Reference managers
+Zotero setup
+
+<img src="images/logos/logo-zotero.png" style="width: 50%" />
+<br>
+]
+.font3[
+[BLOG POST](https://twitter.com/ikashnitsky/status/1106370592368922624)
+]
+]]
+
+.column[.content.vmiddle[
+# Rmarkdown workshop
+
+.font2[
+Writing academic documents with
+
+<img src="images/logos/logo-rstudio.png" style="width: 50%" />
+<br>
+
+Presentations  
+Papers  
+Personal website  
+]
+]]
+
+
+???
+
+Course layout
+
+---
+
+class: show-1000
+count: false
+
+---
+
+class: show-1100
+count: false
+
+---
+
+class: show-1110
+count: false
+
+---
+
+class: show-1111
+count: false
+
+---
+
+
+layout: false
+class: bg-main1 split-30 hide-slide-number
+
+.column.bg-main3[
+]
+.column.slide-in-right[
+.sliderbox.bg-main2.vmiddle[
+.font5[Academic internet]
+]]
+
+
+
+---
+
+layout: true
+class: shuriken-100 bg-main1 
+
+.blade1.bg-main1.content.center[
+# .light-green[Football]
+]]
+.blade2.bg-main2[.content.vertical-rl.center.vmiddle[
+# .amber[Research]
+]]
+.blade3.bg-main3[.content.center[
+# .cyan[Fans]
+]]
+.blade4.bg-main4[.content.sideways-rl.center[
+# Academic Internet
+]]
+.hole.bg-main5[.content.center.vmiddle[
+{{content}}
+]]
+
+
+---
+
+class: hide-blade2 hide-blade3 hide-blade4
+
+<img src="[Imgur](https://i.imgur.com/ukY7tIr.jpg" style="width: 50%" />
+
+---
+
+class: hide-blade2 hide-blade4
+count: false
+
+<img src="[Imgur](https://i.imgur.com/Qk4GOPV.jpg" style="width: 50%" />
+
+---
+
+class: hide-blade4
+count: false
+
+<img src="https://i.imgur.com/uG7jwxX.jpg" style="width: 60%" />
+
+---
+
+class: center middle
+count: false
+
+<img src="[Imgur](https://i.imgur.com/Gw4kqxm.png" style="width: 80%" />
+
+
+
+
+
+---
+
+layout: true
+class: split-40 with-border
+
+.column.bg-main1[.content[
+  .split-three[
+ .row.bg-main1[.content.center.vmiddle[
+   # Increasing complexity 
+ ]]
+  .row.bg-main3[.content.center.vmiddle[
+   # Bibliometrics
+ ]]
+   .row.bg-main5[.content.center.vmiddle[
+  # Scientometrics / Altmetrics
+ ]]
+ ]
+]]
+
+.column.bg-main3[.content.center.vmiddle[
+{{content}}
+]]
+
+---
+
+class: hide-row2-col1 hide-row3-col1
+
+<img src="[Imgur](https://i.imgur.com/3tgKBgY.jpg" style="width: 100%" />
+
+---
+
+class: fade-row1-col1 hide-row3-col1
+count: false
+
+### ...is an emerging branch of science
+<img src="[Imgur](https://i.imgur.com/Qt22hP1.png" style="width: 60%" />
+
+---
+
+class: fade-row1-col1 fade-row2-col1
+count: false
+
+<img src="[Imgur](https://i.imgur.com/YUXTrbp.png" style="width: 50%" />
+
+---
+
+class: fade-row1-col1 fade-row2-col1
+count: false
+
+<iframe width="95%" height="600px" style="background: #FFFFFF;" src="https://www.altmetric.com/top100/2018/"></iframe>
+
+
+---
+
+layout:false
+class: center middle
+
+background-image: url("https://i.imgur.com/Gw4kqxm.png")
+background-size: cover
+???
+all logos
+
+
+---
+layout: false
+class: bg-main1 split-20
+
+.column[.content.sideways-rl[
+.font5[being open]
+]]
+
+.column[.content[
+<iframe width="100%" height="600px" style="background: #FFFFFF;" src="https://resources.rstudio.com/rstudio-conf-2019/the-unreasonable-effectiveness-of-public-work"></iframe>
+<br><br>
+https://resources.rstudio.com/rstudio-conf-2019/the-unreasonable-effectiveness-of-public-work
+]]
+
+
+
+---
+layout: false
+class: bg-main1 split-30
+
+.column[.content.sideways-rl[
+.font5[main accounts]
+]]
+
+.column[.content[
+<br>
+# [ORCID](https://orcid.org)  
+# [Twitter](https://twitter.com/ikashnitsky)  
+# [Google Scholar](https://scholar.google.com/citations?user=tSQW1XYAAAAJ&hl=en) 
+# [Research Gate](https://www.researchgate.net/profile/Ilya_Kashnitsky)  
+# [Publons](https://publons.com/researcher/1183702/ilya-kashnitsky/)  
+]]
+
+
+---
+layout: false
+class: bg-main1 split-30
+
+.column[.content.sideways-rl[
+.font5[staying tuned]
+]]
+
+.column[.content[
+<br>
+# [Google Scholar](https://scholar.google.com/citations?user=tSQW1XYAAAAJ&hl=en)
+# [Twitter](https://twitter.com/ikashnitsky)  
+# [Researcher](https://www.researcher-app.com/library)  
+<br>
+# [Kopernio](https://kopernio.com/?lang=en)  
+# [Crossref](https://doi.crossref.org/simpleTextQuery)  
+# [Sci-hib](http://sci-hub.tw)  
+]]
+
+
+---
+layout: false
+class: bg-main1 split-30
+
+.column[.content.sideways-rl[
+.font4[writing papers]
+]]
+
+.column[.content[
+<br>
+# [Open Science Framework](https://osf.io/profile/)  
+# [Github](https://github.com/ikashnitsky)  
+# [Research Gate](https://www.researchgate.net/project/Regional-demographic-convergence-in-Europe)  
+# [Zotero](https://www.zotero.org)  
+]]
+
+
+---
+layout: false
+class: bg-main3
+
+## Navigating through journals' jungle with SJR
+
+<iframe width="100%" height="530px" style="background: #FFFFFF;" src="https://www.scimagojr.com/journalrank.php"></iframe>
+<br><br>
+https://www.scimagojr.com/journalrank.php
+
+
+---
+layout: false
+class: bg-main1 split-30
+
+.column[.content.sideways-rl[
+.font5[getting help]
+]]
+
+.column[.content[
+<br>
+# [Stack Exchange](https://stackexchange.com/users/5892831/ikashnitsky?tab=accounts)
+# [Quora](https://www.quora.com)  
+# [Research Gate](https://www.researchgate.net/topics)  
+# [Twitter](https://twitter.com/ikashnitsky)  
+# [Rstudio Community](https://community.rstudio.com)  
+]]
+
+
+---
+layout: false
+class: bg-main1 split-30
+
+.column[.content.sideways-rl[
+.font5[outreaching]
+]]
+
+.column[.content[
+<br>
+# [Twitter](https://twitter.com/ikashnitsky/status/1075742125168488448)
+# [Reddit](https://www.reddit.com/r/dataisbeautiful/comments/915hxe/oc_regional_population_structures_at_a_glance/)  
+# [Kudos](https://www.growkudos.com/profile/ilya_kashnitsky)  
+# [Altmetric](https://www.altmetric.com/details/45280452?src=bookmarklet)  
+# [Eurekalert](https://www.eurekalert.org/pub_releases/2018-09/nruh-ae091918.php)   
+# [The Conversation](https://theconversation.com/profiles/jose-manuel-aburto-684052)  
+# [Personal blog](https://ikashnitsky.github.io/2018/the-lancet-paper/)  
+]]
+
+
+---
+layout: false
+class: bg-main1 split-30
+
+.column[.content.sideways-rl[
+.font5[building CV]
+]]
+
+.column[.content[
+<br>
+# [ORCID](https://orcid.org)  
+# [LinkedIN](https://www.linkedin.com/in/ikashnitsky)  
+# [Publons](https://publons.com/researcher/1183702/ilya-kashnitsky/)  
+# [Google Scholar](https://scholar.google.com/citations?user=tSQW1XYAAAAJ&hl=en) 
+# [Impactstory](https://profiles.impactstory.org/u/0000-0003-1835-8687)  
+# [Personal blog](https://ikashnitsky.github.io/pubs)  
+]]
+
+
+---
+layout: false
+class: bg-main1 split-30
+
+.column[.content.sideways-rl[
+.font5[discussing]
+]]
+
+.column[.content[
+<br>
+# [Publons](https://publons.com/publon/518732/#review-505407)  
+# [Pubpeer](https://pubpeer.com)  
+# [Retraction Watch](https://retractionwatch.com)  
+# [Personal blog](https://ikashnitsky.github.io/)  
+# [Skeptics](https://skeptics.stackexchange.com/questions)  
+]]
+
+---
+class: bg-main1 split-30 hide-slide-number
+
+.column.bg-main3[
+]
+.column.slide-in-right[
+.sliderbox.bg-main2.center.vmiddle[
+.font5[Thank you!]
+<br><br>
+## .yellow[[@ikashnitsky](https://twitter.com/ikashnitsky)]
+]]
+
+]]

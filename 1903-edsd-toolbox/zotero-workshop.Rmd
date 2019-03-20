@@ -1,0 +1,111 @@
+---
+title: "LIFE IS TOO SHORT TO HANDLE REFERENCES MANUALLY"
+author: Ilya Kashnitsky
+date: 19 March 2019
+output:
+  revealjs::revealjs_presentation:
+    theme: serif
+    highlight: zenburn
+    center: TRUE
+    transitionSpeed: fast
+    transition: slide
+    incremental: false
+    reveal_options:
+      slideNumber: true
+      previewLinks: true
+    self_contained: true
+    fig_width: 10
+    fig_height: 7
+    fig_caption: false
+    smart: true
+---
+
+## 
+![lego](images/usb.jpg)
+
+
+# What is a reference manager?  {data-background=#cefafa}
+
+## 
+![lego](images/lego.jpg)
+
+
+## 
+<iframe width="980px" height="630px" style="background: #FFFFFF;" src="https://en.wikipedia.org/wiki/Comparison_of_reference_management_software"></iframe>
+<span style="font-size:0.7em">https://en.wikipedia.org/wiki/Comparison_of_reference_management_software</span>
+
+
+## 
+<iframe width="980px" height="630px" style="background: #FFFFFF;" src="https://www.zotero.org"></iframe>
+<span style="font-size:0.7em">https://www.zotero.org</span>
+
+
+
+##
+<iframe width="980px" height="630px" style="background: #FFFFFF;" src="https://ikashnitsky.github.io/2019/zotero/"></iframe>
+<span style="font-size:0.7em">https://ikashnitsky.github.io/2019/zotero/</span>
+
+
+
+# Now I am about to impress you {data-background=#ffeb7f}
+
+##
+![impress](images/impress.jpg)
+
+
+# Amazing Zotero community
+
+##
+<iframe width="980px" height="630px" style="background: #FFFFFF;" src="https://forums.zotero.org/discussion/57130"></iframe>
+<span style="font-size:0.7em">https://forums.zotero.org/discussion/57130</span>
+
+
+
+
+# markdown basics
+
+##
+<span style="font-size:3em">https://dillinger.io</span>
+
+
+
+# bookdown {data-background=#cefafa}
+
+## 
+<iframe width="980px" height="630px" style="background: #FFFFFF;" src="https://bookdown.org/yihui/bookdown/"></iframe>
+<span style="font-size:0.7em">https://bookdown.org/yihui/bookdown/</span>
+
+
+
+
+
+
+# BONUS: about this presenation {data-background=#cce5cc}
+
+## Numerous frameworks for creating presentations with R
+<iframe width="980px" height="400px" style="background: #FFFFFF;" src="http://rmarkdown.rstudio.com/formats.html"></iframe>
+<span style="font-size:0.7em">http://rmarkdown.rstudio.com/formats.html</span>
+
+
+##
+<iframe width="980px" height="630px" style="background: #FFFFFF;" src="https://ramnathv.github.io/slidifyExamples/"></iframe>
+<span style="font-size:0.7em">https://ramnathv.github.io/slidifyExamples</span>
+
+
+## My choice: revealjs
+<iframe width="980px" height="500px" style="background: #FFFFFF;" src="http://lab.hakim.se/reveal-js/"></iframe>
+<span style="font-size:0.7em">http://lab.hakim.se/reveal-js/</span>
+
+
+## Advantages of HTML5 presentations
+>- Open in any browser
+>- Put online
+>- Dynamic fit to screen (4:3 or 16:9 ?)
+>- Animated contents
+>- Fast to create
+>- Enforce KISS
+
+
+##
+<iframe width="980px" height="630px" style="background: #FFFFFF;" src="http://rmarkdown.rstudio.com/revealjs_presentation_format.html"></iframe>
+<span style="font-size:0.7em">http://rmarkdown.rstudio.com/revealjs_presentation_format.html</span>
