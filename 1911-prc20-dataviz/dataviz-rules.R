@@ -76,6 +76,10 @@ jb <- tibble::tribble(
     "1980-2014",  "EEur",  "m",  "0.35",       "4.93",
     "1980-2014",  "EEur",  "f",  "4.38",       "0.86"
 ) %>% 
+    # pivot_ family of functions is the new way to do reshaping
+    # https://www.tidyverse.org/blog/2019/09/tidyr-1-0-0/
+    # also, have a look at this tutorial:
+    # https://twitter.com/yutannihilat_en/status/1172767005784457218
     pivot_longer(names_to = "component", cols = delay:compression) %>% 
     mutate(value = value %>% as.numeric()) %>% 
     mutate_if(is_character, as_factor)
