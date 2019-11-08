@@ -1,6 +1,7 @@
 #===============================================================================
 # 2019-11-08 PRC dataviz workshop
 # Simple rules and tricks to improve dataviz communication
+# slides: https://ikashnitsky.github.io/share/1911-prc20-dataviz/slides.html#/
 # Ilya Kashnitsky, ilya.kashnitsky@gmail.com
 #===============================================================================
 
@@ -551,5 +552,4 @@ animate(
     start_pause = 3, end_pause = 10
 )
 
-# save animation
-anim_save('test-anim.gif')
+anim_save("test-anim.gif")
