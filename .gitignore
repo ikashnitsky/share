@@ -17,6 +17,9 @@
 # RStudio files
 .Rproj.user/
 
+# mac ds_store
+.DS_Store
+
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
